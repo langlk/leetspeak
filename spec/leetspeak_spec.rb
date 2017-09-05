@@ -25,4 +25,9 @@ describe('#leetspeak') do
   it("replaces every 'a' or 'A' in a string with a '4'") do
     expect(("happy").leetspeak()).to(eq("h4ppy"))
   end
+
+  it("replaces every 's' or 'S' in a string with a 'z'") do
+    expect(("roses").leetspeak()).to(eq("r0z3z"))
+  end
+
 end
