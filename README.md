@@ -41,7 +41,7 @@ _Ruby application that will return a string of words to a user input in Leetspea
   * Example output: s4zz4fr4zz
 * _Replaces letters correctly in a string of words_
   * Example input: I scream you scream we all scream for raspberry ice cream.
-  * Example output: 1 scr3am y0u scr3am w3 all scr3am f0r razpb3rry ic3 cr3am
+  * Example output: 1 scr34m y0u scr34m w3 4ll scr34m f0r r4zpb3rry ic3 cr34m
 
 ## Known Bugs
 
