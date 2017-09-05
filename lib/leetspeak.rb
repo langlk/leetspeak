@@ -1,24 +1,27 @@
 class String
   def leetspeak()
-    self.gsub!("a", "4")
-    self.gsub!("A", "4")
-    self.gsub!("t", "7")
-    self.gsub!("T", "7")
-    self.gsub!("I", "1")
-    self.gsub!("o", "0")
-    self.gsub!("O", "0")
-    self.gsub!("e", "3")
-    self.gsub!("E", "3")
-    if !(self[0] == "s") | !(self[0] == "S")
-      temp = self[1..-1]
-      temp.gsub!("s", "z")
-      temp.gsub!("S", "z")
-      self.replace(self[0] + temp)
-    else
-      self.gsub!("s", "z")
-      self.gsub!("S", "z")
+    split_sentence = self.split()
+    split_sentence.each do |word|
+      word.gsub!("a", "4")
+      word.gsub!("A", "4")
+      word.gsub!("t", "7")
+      word.gsub!("T", "7")
+      word.gsub!("I", "1")
+      word.gsub!("o", "0")
+      word.gsub!("O", "0")
+      word.gsub!("e", "3")
+      word.gsub!("E", "3")
+      if !(word[0] == "s") | !(word[0] == "S")
+        temp = word[1..-1]
+        temp.gsub!("s", "z")
+        temp.gsub!("S", "z")
+        word.replace(word[0] + temp)
+      else
+        word.gsub!("s", "z")
+        word.gsub!("S", "z")
+      end
     end
-    self
+    split_sentence.join(" ")
   end
 end
-puts "sassafrass".leetspeak()
+puts "I scream you scream we all scream for raspberry ice cream".leetspeak()

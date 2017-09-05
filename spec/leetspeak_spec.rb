@@ -34,4 +34,7 @@ describe('#leetspeak') do
     expect(("sassafrass").leetspeak()).to(eq("s4zz4fr4zz"))
   end
 
+  it("replaces letters correctly in a string of words") do
+    expect(("I scream you scream we all scream for raspberry ice cream").leetspeak()).to(eq("1 scr34m y0u scr34m w3 4ll scr34m f0r r4zpb3rry ic3 cr34m"))
+  end
 end
