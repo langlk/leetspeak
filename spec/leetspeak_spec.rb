@@ -30,4 +30,8 @@ describe('#leetspeak') do
     expect(("roses").leetspeak()).to(eq("r0z3z"))
   end
 
+  it("does not replace first letter when it is an 's'") do
+    expect(("sassafrass").leetspeak()).to(eq("s4zz4fr4zz"))
+  end
+
 end
