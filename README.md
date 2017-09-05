@@ -15,21 +15,33 @@ _Ruby application that will return a string of words to a user input in Leetspea
 
 ## Specifications
 
-* _Does nothing to non-alphabetical characters_
-  * Example input: it was 9 of the worst #$(!&% of times
-  * Example output: it was 9 of the worst #$(!&% of times
-* _Capitalize first letter of a string_
-  * Example input: it was the worst of times
-  * Example output: It was the worst of times
-* _Lowercases letters in string besides the first letter._
-  * Example input: IT WAS THE WORST OF TIMES
-  * Example output: It was the worst of times
-* _Capitalize first letter of each word in a string_
-  * Example input: it was the worst of times
-  * Example output: It Was The Worst Of Times
-* _No changes made to the following words (except the first word in string): a, an, the, at, by, for, in, of, on, to, up, and, as, but, or, nor_
-  * Example input: it was the worst of times
-  * Example output: It Was the Worst of Times
+* _Returns a string as is when no Leetspeak rules apply_
+  * Example input: jumpy
+  * Example output: jumpy
+* _Replaces every "e" or "E" in a string with a "3"_
+  * Example input: keep
+  * Example output: k33p
+* _Replaces every "o" or "O" in a string with a "0"_
+  * Example input: boo boo
+  * Example output: b00 b00
+* _Replaces every "I" in a string with a "1"_
+  * Example input: I like Ike
+  * Example output: 1 lik3 1k3
+* _Replaces every "t" or "T" in a string with a "7"_
+  * Example input: teeth
+  * Example output: 7337h
+* _Replaces every "a" or "A" in a string with a "4"_
+  * Example input: happy
+  * Example output: h4ppy
+* _Replaces every "s" or "S" in a string with a "z"_
+  * Example input: roses
+  * Example output: r0z3z
+* _Does not replace first letter when it is an "s"_
+  * Example input: sassafrass
+  * Example output: s4zz4fr4zz
+* _Replaces letters correctly in a string of words_
+  * Example input: I scream you scream we all scream for raspberry ice cream.
+  * Example output: 1 scr3am y0u scr3am w3 all scr3am f0r razpb3rry ic3 cr3am
 
 ## Known Bugs
 
