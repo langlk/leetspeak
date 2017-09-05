@@ -21,4 +21,8 @@ describe('#leetspeak') do
   it("replaces every 't' or 'T' in a string with a '7'") do
     expect(("teeth").leetspeak()).to(eq("7337h"))
   end
+
+  it("replaces every 'a' or 'A' in a string with a '4'") do
+    expect(("happy").leetspeak()).to(eq("h4ppy"))
+  end
 end

@@ -1,5 +1,7 @@
 class String
   def leetspeak()
+    self.gsub!("a", "4")
+    self.gsub!("A", "4")
     self.gsub!("t", "7")
     self.gsub!("T", "7")
     self.gsub!("I", "1")
