@@ -1,8 +1,8 @@
 # _Leetspeak_
 
-#### _Epicodus practice in Ruby, 9/5/17_
+#### _Epicodus practice in Ruby, 9/11/17_
 
-#### By _**Kelsey Langlois and L. Devin MacKrell**_
+#### By _**Kelsey Langlois, Megan Olson, and L. Devin MacKrell**_
 
 ## Description
 
@@ -53,11 +53,12 @@ _If you run into any issues or have questions, ideas or concerns, or if you woul
 
 ## Technologies Used
 
-_This application was created using Ruby_
+* Ruby
+* Sinatra
 
 ### License
 
-Copyright (c) 2017 **_Kelsey Langlois and L. Devin MacKrell_**
+Copyright (c) 2017 **_Kelsey Langlois, Megan Olson, and L. Devin MacKrell_**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
