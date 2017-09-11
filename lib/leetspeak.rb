@@ -24,4 +24,3 @@ class String
     split_sentence.join(" ")
   end
 end
-puts "I scream you scream we all scream for raspberry ice cream".leetspeak()
