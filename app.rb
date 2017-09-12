@@ -8,7 +8,7 @@ get('/') do
   erb(:input)
 end
 
-get('/output') do
+post('/output') do
   @sentence = params["sentence"]
   @leet_sentence = @sentence.leetspeak
   erb(:output)
