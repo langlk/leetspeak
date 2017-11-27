@@ -10,8 +10,10 @@ _Ruby application that will return a string of words to a user input in Leetspea
 
 ## Setup/Installation Requirements
 
-* _Clone application from github repository: https://github.com/langlk/leetspeak.git_
-* _From this repository run leetspeak.rb_
+* Clone this repository
+* Run ```bundle install``` in the project root.
+* Run ```ruby app.rb```
+* Open ```localhost:4567``` in your web browser
 
 ## Specifications
 
